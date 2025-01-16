@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "FunnelSans";
+    src: url(fonts/FunnelSans-VariableFont_wght.ttf);
+  }
+
+
+.footer {
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: "FunnelSans";
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(243, 240, 240);
+    position: absolute;
+    right: 1417px;
+    bottom: 100px;
+    text-align: left;
+}
+
+.emailtitle {
+    font-family: "FunnelSans";
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(180, 180, 180);
+    position: absolute;
+    right: 1450px;
+    bottom: 80px;
+}
+
+
+.emailbox {
+    font-family: "FunnelSans";
+    position: absolute;
+    bottom: 60px;
+    right: 960px;
+    width: 30%;
+    height: 2.5%;
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(37,37,37,1) 100%);
+    color: rgb(243, 240, 240);
+    border-radius: 10px;
+}
+
+.commenttitle {
+    font-family: "FunnelSans";
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(180, 180, 180);
+    position: absolute;
+    right: 1365px;
+    bottom: 0px;
+}
+
+.commentbox {
+    font-family: "FunnelSans";
+    position: absolute;
+    bottom: -100px;
+    right: 960px;
+    width: 30%;
+    height: 10%;
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(37,37,37,1) 100%);
+    color: rgb(243, 240, 240);
+    border-radius: 10px;
+}
+
+.submitbox {
+    font-family: "FunnelSans";
+    border-radius: 10px;
+    position: absolute;
+    bottom: -150px;
+    right: 1385px;
+    width: 7.5%;
+    height: 2.7%;
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(37,37,37,1) 100%);
+    color: rgb(243, 240, 240);
+}

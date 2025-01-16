@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "FunnelSans";
+    src: url(fonts/FunnelSans-VariableFont_wght.ttf);
+  }
+
+
+.first {
+    font-family: "FunnelSans";
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(243, 240, 240);
+    position: absolute;
+    right: 1330px;
+    bottom: 680px;
+    text-align: left;
+}
+
+.libpic {
+    position: absolute;
+    height: 325px;
+    width: 325px;
+    right: 1200px;
+    bottom: 360px;
+    filter: brightness(60%);
+    transition: all .25s;
+    border-radius: 20px;
+}
+
+.libpic:hover {
+    position:absolute;
+    transform: scale(1.035);
+    filter:brightness(80%);
+}
+
+.libtitle {
+    position:absolute;
+    text-align: left;
+    right: 1200px;
+    bottom: 285px;
+}
+
+.libdesc {
+    font-family: "FunnelSans";
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(180, 180, 180);
+    position: absolute;
+    right: 1150px;
+    bottom: 235px;
+    text-align: center;
+}
+
+.abtestpic {
+    position: absolute;
+    height: 325px;
+    width: 325px;
+    right: 550px;
+    bottom: 360px;
+    filter:brightness(60%);
+    transition: all .25s;
+}
+.abtestpic:hover {
+    position:absolute;
+    transform: scale(1.035);
+    filter:brightness(80%);
+}
+
+.abtitle {
+    position:absolute;
+    text-align: left;
+    right: 550px;
+    bottom: 285px;
+
+}
+
+.abdesc{
+    font-family: "FunnelSans";
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(180, 180, 180);
+    position: absolute;
+    right: 450px;
+    bottom: 235px;
+    text-align: center;
+}
